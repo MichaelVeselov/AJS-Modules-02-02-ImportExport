@@ -1,0 +1,33 @@
+{
+    "name": "ajs-ht-02-02-import-export",
+    "version": "1.0.0",
+    "description": "AJS-HomeTasks-02-Modules-02-02-ImportExport",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MichaelVeselov/AJS-Modules-02-02-ImportExport.git"
+    },
+    "scripts": {
+        "start": "webpack serve --mode development --open",
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development"
+    },
+    "author": "MVE",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.8",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.4",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-loader": "^6.7.1",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "webpack": "^5.71.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4"
+    },
+    "dependencies": {
+        "core-js": "^3.21.1"
+    }
+}
